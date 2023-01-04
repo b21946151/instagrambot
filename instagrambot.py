@@ -1,5 +1,3 @@
-import json
-
 import instaloader
 L = instaloader.Instaloader()
 

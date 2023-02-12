@@ -3,7 +3,7 @@ L = instaloader.Instaloader()
 
 
 
-L.login(["username"],["password"])  #UPDATE HERE WITH YOUR USERNAME AND PASSWORD.
+L.login("username","password")  #UPDATE HERE WITH YOUR USERNAME AND PASSWORD.
  
 
 profile = instaloader.Profile.from_username(L.context, "username") #UPDATE HERE AS WELL.
